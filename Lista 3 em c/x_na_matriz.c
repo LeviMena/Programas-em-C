@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TAMANHO_MATRIZ 3 // Defina o tamanho da matriz aqui
+#define TAMANHO_MATRIZ 5 // Defina o tamanho da matriz aqui
 
 int main() {
     int matriz[TAMANHO_MATRIZ][TAMANHO_MATRIZ];
@@ -36,7 +36,7 @@ int main() {
     }
 
     // Apresenta o resultado
-    printf("O valor %d aparece %d vezes na matriz.\n", x, contador);
+    printf("O valor %d aparece %d vez(es) na matriz.\n", x, contador);
 
     return 0;
 }
